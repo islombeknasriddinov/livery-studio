@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-17T07:26:54+00:00",
+  "updatedAt": "2026-09-17T07:40:44+00:00",
   "cars": [
     {
       "id": "amr-v12-vantage-gt3-endurance-2013",
@@ -124,7 +124,7 @@
     },
     {
       "id": "bmw-m4-gt3-2022",
-      "name": "BMW M4 GT3",
+      "name": "BMW M4 GT3 - 2022",
       "file": "https://github.com/islombeknasriddinov/livery-studio/releases/download/models-2026-09-17/bmw-m4-gt3-2022.obj",
       "bytes": 9768293,
       "sha256": "2a24af5b4ab7e5012c68c9cd107a0aff3049b27bc459b53822bbe07ee2e45aa0",
@@ -133,8 +133,7 @@
       "brand": "BMW",
       "group": "GT3",
       "preview": "GT3/bmw-m4-gt3-2022.jpg",
-      "accModelType": 30,
-      "note": "Официальный шаблон ливрей Kunos"
+      "accModelType": 30
     },
     {
       "id": "bmw-m4-gt3-sprint-2022",
