@@ -2,7 +2,7 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy — Livery Studio</title>
+<title>Privacy Policy — Livery Lab</title>
 <style>
 :root { color-scheme: dark }
 body { margin: 0 auto; padding: 48px 24px 96px; max-width: 40rem;
@@ -20,13 +20,14 @@ nav a { white-space: nowrap }
 footer { margin-top: 64px; border-top: 1px solid #2a2a2a; padding-top: 16px;
          font-size: 14px; color: #9a9a9a }
 </style>
-<nav><a href="./">Livery Studio</a><a href="privacy.html">Privacy</a><a href="../privacy.html">Русский</a></nav>
-<h1>Privacy Policy — Livery Studio</h1>
-<p><em>Effective date: 5 October 2026.</em></p>
+<nav><a href="./">Livery Lab</a><a href="privacy.html">Privacy</a><a href="../privacy.html">Русский</a></nav>
+<h1>Privacy Policy — Livery Lab</h1>
+<p><em>Effective date: 12 October 2026.</em></p>
 <p>One policy for both versions of the app, iOS and Android. Where they behave differently, it is said so.</p>
 <h2>In short</h2>
-<p>Livery Studio collects neither your work nor your personal data: no name, no email, no livery contents, no images you placed in them. The app has no account at all — there is nothing to sign in to. There is no advertising.</p>
+<p>Livery Lab collects neither your work nor your personal data: no name, no email, no livery contents, no images you placed in them. The app has no account at all — there is nothing to sign in to. There is no advertising.</p>
 <p>What the app does send is <strong>anonymous usage statistics and crash reports</strong>: which actions were taken, and whether the app crashed. No livery names, no file names and no images go there. The full list is in &quot;Usage statistics and crash reports&quot; below.</p>
+<p>The one exception is a <strong>link for a friend</strong>, and only when you make one yourself: then a turntable of your car as images and the livery&#x27;s captions go to our server, so that your friend can see them in a browser. Details are in &quot;Link for a friend&quot;.</p>
 <h2>What is stored, and where</h2>
 <p>Everything you do in the app stays on your device:</p>
 <ul>
@@ -35,17 +36,25 @@ footer { margin-top: 64px; border-top: 1px solid #2a2a2a; padding-top: 16px;
 <li>the images you placed as decals</li>
 <li>the archives built for the game</li>
 </ul>
-<p>The developer has no access to these files: your work never leaves the device. Car models are downloaded from our server; what goes back from your device is only the usage statistics and crash reports described below — not one of your files is among them.</p>
+<p>The developer has no access to these files: the files themselves never leave the device. Car models are downloaded from our server; what goes back from your device is the usage statistics and crash reports described below and, when you tap for it, the turntable for a link for a friend. Not one livery file, layer or model is among them.</p>
 <p><strong>On iOS</strong> the files live in the app&#x27;s documents folder: you can see them in the Files app, and they go into your device backup if you have one enabled.</p>
 <p><strong>On Android</strong> the files live in the app&#x27;s internal storage. Other apps cannot see them, and they do not go into a backup: app data backup is turned off (<code>allowBackup=&quot;false&quot;</code>).</p>
 <p>Deleting the app deletes all of these files with it.</p>
 <h2>Network access</h2>
-<p>The app goes online in three places, and only these:</p>
-<p>1. <strong>The model catalog</strong> — reads the list of cars and downloads the one you    picked. No liveries and no images are sent there. As with any website, the    host sees your IP address while the file is downloading — the file could not    reach you otherwise. 2. <strong>Usage statistics</strong> — sends the events listed below. 3. <strong>Remote settings</strong> — the app asks whether it is time to update. The    request carries an anonymous installation number, the app and system    versions and the device language — the server cannot answer without them.    No name and none of your files are among them.</p>
+<p>The app goes online in four places, and only these:</p>
+<p>1. <strong>The model catalog</strong> — reads the list of cars and downloads the one you    picked. No liveries and no images are sent there. As with any website, the    host sees your IP address while the file is downloading — the file could not    reach you otherwise. 2. <strong>Usage statistics</strong> — sends the events listed below. 3. <strong>Remote settings</strong> — the app asks whether it is time to update. The    request carries an anonymous installation number, the app and system    versions and the device language — the server cannot answer without them.    No name and none of your files are among them. 4. <strong>A link for a friend</strong> — only when you tap &quot;Share a link&quot; or &quot;Delete    link&quot;. What exactly is sent is described in the next section.</p>
 <p>The app makes no other network requests — not when parsing a model, not while painting, not when building the archive.</p>
 <p><strong>On Android</strong> everything above works the same way, the model catalog included. The app requests two permissions, and both exist purely for the network: internet access and network state. It asks for no camera, no microphone, no location, no contacts and no photo library — you pick the model and the images through the system file picker, which needs none. The permission list on the app&#x27;s Google Play page consists of those two — you can check.</p>
+<h2>Link for a friend</h2>
+<p>&quot;Share a link&quot; makes a page where a friend, without the app, sees your car in its livery and can turn it around. Nothing is sent until you tap that button yourself.</p>
+<p><strong>What is sent.</strong> A turntable — 48 images of your car from all sides plus a cover, made by the app — and captions for the page: the livery and car names, the game, the number, and the team and driver names if you entered them. Livery files, layers, the car model and the original decal images are not sent. If your livery carries your own photo as a decal, it shows on the turntable just as it does on the body.</p>
+<p><strong>Where it is stored.</strong> On our server <code>liverylab.uz</code>, which runs on Cloudflare (a processor acting on our behalf): the turntable is kept in Cloudflare R2 storage.</p>
+<p><strong>Who can see it.</strong> Anyone who has the link. The page is closed to search engines, but the address can be forwarded — do not share what you do not want to show.</p>
+<p><strong>How to delete it.</strong> With &quot;Delete link&quot; in the app: the turntable and the captions are erased at once, and the old address only shows &quot;This livery was removed&quot;. The deletion key is kept in the app on your device; if the app is gone, email us at the address below with the link and we will delete it by hand.</p>
+<p><strong>Reports.</strong> The page has a &quot;Report&quot; button. A report keeps only its time and the reason, if one was given — not the address or the device of the person reporting. Links that break the rules or someone&#x27;s rights are taken down.</p>
+<p>There is no account here either: a link is tied to neither your name nor your email. Like any website, the server sees the IP address of whoever uploads a turntable or opens the page — only for the duration of the request and to allow no more than five links a minute from one address; we do not store it. Everything travels over HTTPS.</p>
 <h2>Usage statistics and crash reports</h2>
-<p>The app counts <strong>what</strong> is done in it, and never <strong>what</strong> you painted. Twelve events are counted: opening and creating a livery, picking a tool, adding a layer and a decal, saving, undo, switching games, a finished and a failed export, downloading a car from the catalog, and sharing a livery snapshot through the system share sheet (the snapshot itself is not sent — only the fact that it was shared).</p>
+<p>The app counts <strong>what</strong> is done in it, and never <strong>what</strong> you painted. Fifteen events are counted: opening and creating a livery, picking a tool, adding a layer and a decal, saving, undo, switching games, a finished and a failed export, downloading a car from the catalog, sharing a livery snapshot through the system share sheet (the snapshot itself is not sent — only the fact that it was shared), and creating, failing to create and deleting a link for a friend — with how long it took and how much the turntable weighed, but without the link address or the livery captions.</p>
 <p>Only numbers and short markers travel with an event: which tool was picked, how many layers a livery has, how many seconds the archive took and how much it weighs, where a decal came from — &quot;photo&quot;, &quot;file&quot;, &quot;text&quot;. A new livery sends the car&#x27;s model number in the game, not the car name you typed yourself. If an export failed, the kind of error is sent, not its text: the text can contain a path to your file.</p>
 <p>Along with an event, Amplitude sends what it sends for any app: the device model, the system and app versions, the language and the mobile carrier. There is no location among these: deriving the country and city from the IP address, and the IP address itself, are turned off.</p>
 <p>A crash report contains what such a report usually contains: where in the code the app crashed, the device model, the system version, free memory and disk space. A short marker about the last major action is attached — &quot;editor opened&quot;, for example.</p>
@@ -53,6 +62,10 @@ footer { margin-top: 64px; border-top: 1px solid #2a2a2a; padding-top: 16px;
 <h2>Retention and deletion</h2>
 <ul>
 <li><strong>Your files</strong> stay on the device until you delete them or delete the app</li>
+<li><strong>Links for a friend</strong> stay on the server until you delete them in the app or</li>
+</ul>
+<p>  we take a link down after a report.</p>
+<ul>
 <li><strong>Crash reports</strong> are kept by Firebase Crashlytics for 90 days and then</li>
 </ul>
 <p>  deleted automatically.</p>
@@ -63,13 +76,14 @@ footer { margin-top: 64px; border-top: 1px solid #2a2a2a; padding-top: 16px;
 <p>The statistics are tied to no name, no email and no account, so we cannot find the records of a particular person in them. To stop anything leaving the device, delete the app: the installation number is deleted with it, and a new installation gets a new number unrelated to the old one. Any question about your data can be sent to the email below.</p>
 <h2>Sharing</h2>
 <p>When you build an archive and choose where to send it, the file is handed over by the system in the way you picked: AirDrop, Files, email, a messenger. That is your action and your choice of recipient — the app only hands the file to the system.</p>
+<p>You send a link for a friend yourself in the same way: the app puts the address into the system share sheet or copies it, and you decide who gets it.</p>
 <h2>Purchases</h2>
 <p><strong>Neither version has any purchases</strong>: everything is free and unlimited. The app talks to neither the App Store nor Google Play about purchases, and it never sees or stores payment details.</p>
 <h2>Children</h2>
-<p>The app collects no personal data from anyone, children included. The usage statistics and crash reports described above are anonymous and tied to neither a name nor an account.</p>
+<p>The app collects no personal data from anyone, children included. The usage statistics and crash reports described above are anonymous and tied to neither a name nor an account. A link-for-a-friend page shows only what was entered into the livery — if a child makes a link, a parent should know it can be deleted in the app.</p>
 <h2>Changes</h2>
 <p>If this policy changes, a new effective date will appear here.</p>
 <h2>Contact</h2>
 <p>Questions about this policy: <a href="mailto:nasriddinov.islom.19@gmail.com">nasriddinov.islom.19@gmail.com</a></p>
-<footer>Livery Studio · <a href="mailto:nasriddinov.islom.19@gmail.com">nasriddinov.islom.19@gmail.com</a></footer>
+<footer>Livery Lab · <a href="mailto:nasriddinov.islom.19@gmail.com">nasriddinov.islom.19@gmail.com</a></footer>
 </html>
